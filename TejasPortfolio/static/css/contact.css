@@ -1,0 +1,339 @@
+/* Add styles for the Contact Me section */
+.contact-section {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+.contact-section p {
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: grid;
+    gap: 20px;
+}
+
+.contact-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Add styles for the About Me page */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-list li {
+    margin-bottom: 15px;
+}
+
+.education-list strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Add styles for the Summary section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* You can add more styling as needed for the specific design */
+/* Add styles for the Skills section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin-bottom: 15px;
+}
+
+.skills-list strong {
+    font-weight: bold;
+    color: #007bff;
+}
+/* Add styles for the Education section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.education {
+    margin-bottom: 20px;
+}
+
+.education h3 {
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.education p {
+    margin-bottom: 5px;
+}
+
+.education strong {
+    font-weight: bold;
+    color: #007bff;
+}
+/* Add styles for the Work Experience/Internship section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.experience-list {
+    list-style: none;
+    padding: 0;
+}
+
+.experience-list li {
+    margin-bottom: 20px;
+}
+
+.experience-list strong {
+    font-weight: bold;
+    color: #007bff;
+}
+/* Add styles for the Projects section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #007bff;
+    margin-bottom: 5px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+/* Add styles for the Personal Information section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.personal-info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.personal-info-list li {
+    margin-bottom: 10px;
+}
+
+.personal-info-list strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+p {
+    margin-top: 20px;
+    color: #6c757d;
+}
+/* Add styles for the Awards section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.awards-list {
+    list-style: none;
+    padding: 0;
+}
+
+.awards-list li {
+    margin-bottom: 10px;
+}
+
+.awards-list strong {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Add styles for the Extra-Curricular Activities section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.activities-list {
+    list-style: none;
+    padding: 0;
+}
+
+.activities-list li {
+    margin-bottom: 10px;
+}
+
+.activities-list strong {
+    font-weight: bold;
+    color: #007bff;
+}
+/* Add styles for the Qualities section */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #343a40;
+}
+
+hr {
+    border-top: 2px solid #007bff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.qualities-list {
+    list-style: none;
+    padding: 0;
+}
+
+.qualities-list li {
+    margin-bottom: 10px;
+}

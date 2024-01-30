@@ -1,0 +1,133 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-links {
+    display: flex;
+}
+
+.nav-link {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffc107; /* Change the color on hover */
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Add some spacing between buttons */
+.container a {
+    margin-right: 10px;
+}
+
+/* Body block styles */
+main {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Add styles for the Attractive Header */
+.header-content {
+    text-align: center;
+    padding: 50px;
+}
+
+.attractive-heading {
+    font-family: 'Pacifico', cursive; /* Use a Google Font or a preferred font-family */
+    color: #007bff; /* Primary color */
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Adjust letter spacing */
+    font-weight: bold; /* Bold text */
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+    font-size: 2em; /* Adjust font size */
+}
+
+.attractive-heading::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #007bff; /* Same color as the text */
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.3s ease-out;
+}
+
+.attractive-heading:hover::after {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+}
+
+.role {
+    color: #555; /* Dark gray color for the role text */
+    font-size: 1.2em; /* Adjust font size */
+    font-style: italic; /* Italicize the role text */
+    margin-top: 0;
+}
